@@ -754,7 +754,13 @@ footer p{font-family:var(--sans);font-size:11px;color:rgba(255,255,255,.28);}
   .sticky .btn-main{width:100%;justify-content:center;}
   .fir{display:none;}
   .flow-item{padding:18px;}
+  /* mobile-only line breaks */
+  br.m-br{display:initial !important;}
+  /* hero-badge を1行に収める */
+  .hero-badge{font-size:9.5px;letter-spacing:.12em;padding:5px 12px;}
 }
+/* m-br is hidden on desktop */
+br.m-br{display:none;}
 </style>
 </head>
 <body>
@@ -774,7 +780,7 @@ footer p{font-family:var(--sans);font-size:11px;color:rgba(255,255,255,.28);}
     <div>
       <div class="hero-badge"><span class="pdot"></span>広告マーケティング　戦略〜実装まで一気通貫</div>
       <h1 class="hero-title">
-        <span class="bl">御社の商品・サービスが売れる仕組みを</span><br>
+        <span class="bl">御社の商品・サービスが<br class="m-br">売れる仕組みを</span><br>
         戦略設計〜実装まで<br>お任せください
       </h1>
       <div class="hero-rule"></div>
@@ -953,7 +959,7 @@ footer p{font-family:var(--sans);font-size:11px;color:rgba(255,255,255,.28);}
   <div class="si">
     <div class="svc-center">
       <p class="stag c reveal">サービス内容</p>
-      <h2 class="stitle reveal">戦略設計から実装・商談まで<br>すべてお任せください</h2>
+      <h2 class="stitle reveal">戦略設計から<br class="m-br">実装・商談まで<br>すべてお任せください</h2>
       <div class="srule" style="margin:0 auto 18px;"></div>
       <p class="sdesc reveal">広告だけ・LPだけではなく、<br>サービスの全体最適を考えて動きます。</p>
     </div>
@@ -963,7 +969,7 @@ footer p{font-family:var(--sans);font-size:11px;color:rgba(255,255,255,.28);}
       <div class="svc-head">
         <div style="flex:1">
           <span class="sh-tag tag-m">メインサービス</span>
-          <h3 style="margin-top:8px">広告マーケティング　戦略〜実装　完全代行</h3>
+          <h3 style="margin-top:8px">広告マーケティング<br class="m-br">戦略〜実装　完全代行</h3>
         </div>
       </div>
       <div class="svc-body">
@@ -1183,7 +1189,7 @@ footer p{font-family:var(--sans);font-size:11px;color:rgba(255,255,255,.28);}
 
   <div class="si">
     <p class="stag reveal">選ばれる理由</p>
-    <h2 class="stitle reveal">「任せてよかった」と<br>言われるために全力で動きます</h2>
+    <h2 class="stitle reveal">「任せてよかった」と<br>言われるために全力で<br class="m-br">動きます</h2>
     <div class="srule reveal"></div>
 
     <div class="why-grid">
